@@ -1,2 +1,0 @@
-# Java
-For Java Programmers
