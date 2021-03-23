@@ -12,11 +12,17 @@ public class Login extends javax.swing.JFrame {
        
     }
 
-    
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        private javax.swing.JLabel idField;
+        private javax.swing.JPasswordField jPasswordField1;
+        private javax.swing.JTextField jTextField1;
+        private javax.swing.JButton loginButton;
+        private javax.swing.JLabel loginLabel;
+        private javax.swing.JPasswordField passwordField;
+        private javax.swing.JLabel passwordLabel;
+        
+        
         jPasswordField1 = new javax.swing.JPasswordField();
         loginLabel = new javax.swing.JLabel();
         idField = new javax.swing.JLabel();
@@ -88,16 +94,6 @@ public class Login extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-   
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel idField;
-    private javax.swing.JPasswordField jPasswordField1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JButton loginButton;
-    private javax.swing.JLabel loginLabel;
-    private javax.swing.JPasswordField passwordField;
-    private javax.swing.JLabel passwordLabel;
-    // End of variables declaration//GEN-END:variables
 }
