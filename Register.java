@@ -35,9 +35,26 @@ public class Register extends javax.swing.JFrame {
       
     }
 
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
+        
+        private javax.swing.JComboBox<String> branchField;
+        private javax.swing.JLabel branchLabel;
+        private javax.swing.ButtonGroup buttonGroup1;
+        private javax.swing.JTextField emailField;
+        private javax.swing.JLabel emailLabel;
+        private javax.swing.JRadioButton facultyRadio;
+        private javax.swing.JTextField idField;
+        private javax.swing.JLabel idLabel;
+        private javax.swing.JTextField mobileField;
+        private javax.swing.JLabel mobileLabel;
+        private javax.swing.JTextField nameField;
+        private javax.swing.JLabel nameLabel;
+        private javax.swing.JTextField passwordField;
+        private javax.swing.JLabel passwordLabel;
+        private javax.swing.JButton registerButton;
+        private javax.swing.JLabel registerLabel;
+        private javax.swing.JRadioButton studentRadio;
+        private javax.swing.JLabel typeLabel;
 
         buttonGroup1 = new javax.swing.ButtonGroup();
         registerLabel = new javax.swing.JLabel();
@@ -213,11 +230,10 @@ public class Register extends javax.swing.JFrame {
                 .addComponent(registerButton)
                 .addContainerGap())
         );
-
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void registerButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_registerButtonActionPerformed
+    private void registerButtonActionPerformed(java.awt.event.ActionEvent evt) {
         
            try {
              
@@ -252,38 +268,12 @@ public class Register extends javax.swing.JFrame {
            }
        
       
-           
-           
-         
-    }//GEN-LAST:event_registerButtonActionPerformed
-
     private void studentRadioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_studentRadioActionPerformed
        type = studentRadio.getActionCommand();
-    }//GEN-LAST:event_studentRadioActionPerformed
+    }
 
     private void facultyRadioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_facultyRadioActionPerformed
        type = facultyRadio.getActionCommand(); 
-    }//GEN-LAST:event_facultyRadioActionPerformed
-
+    }
    
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JComboBox<String> branchField;
-    private javax.swing.JLabel branchLabel;
-    private javax.swing.ButtonGroup buttonGroup1;
-    private javax.swing.JTextField emailField;
-    private javax.swing.JLabel emailLabel;
-    private javax.swing.JRadioButton facultyRadio;
-    private javax.swing.JTextField idField;
-    private javax.swing.JLabel idLabel;
-    private javax.swing.JTextField mobileField;
-    private javax.swing.JLabel mobileLabel;
-    private javax.swing.JTextField nameField;
-    private javax.swing.JLabel nameLabel;
-    private javax.swing.JTextField passwordField;
-    private javax.swing.JLabel passwordLabel;
-    private javax.swing.JButton registerButton;
-    private javax.swing.JLabel registerLabel;
-    private javax.swing.JRadioButton studentRadio;
-    private javax.swing.JLabel typeLabel;
-    // End of variables declaration//GEN-END:variables
 }
